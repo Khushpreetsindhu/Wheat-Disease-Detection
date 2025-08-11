@@ -27,4 +27,4 @@ Approach 2 uses the 'original dataset' and splits it first into training (70%), 
 2. MobileNet-V2 + CBAM
 3. Custom CNN model
 # Results
-The EfficientNEt-B0 + CBAM model belonging to the approach 2 is selected as the optimal model as it fixes the data leakage caused by approach 1 and is more reliable out of all. 
+The EfficientNEt-B0 + CBAM model belonging to the approach 2 is selected as the optimal model as it fixes the data leakage caused by approach 1 and is more reliable out of all. For the 'wheat_app.py' to work it requires the weights of the EfficientNet-B0 + CBAM model stored in a keras file from the second approach.
